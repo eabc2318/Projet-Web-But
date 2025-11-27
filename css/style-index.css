@@ -1,5 +1,5 @@
 :root {
-    --background-color-1: #135FE0;
+    --background-color-1: /*#135FE0*/ #5F13E0;
     --background-color-2: #110E2B;
     --background-color-3: #F7DDFF;
     --background-color-4: #D3BAFF;
@@ -8,8 +8,86 @@
     --background-angle: 136deg;
 }
 
+/* Police Rubik normale*/
+@font-face {
+    font-family: "Rubik";
+    src: url("/assets/fonts/rubik/static/Rubik-Regular.ttf");
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+/* Police Rubik medium*/
+@font-face {
+    font-family: "Rubik";
+    src: url("/assets/fonts/rubik/static/Rubik-Medium.ttf");
+    font-display: swap;
+    font-weight: bold;
+    font-style: normal;
+}
+/* Police Rubik bold*/
+@font-face {
+    font-family: "Rubik";
+    src: url("/assets/fonts/rubik/static/Rubik-Bold.ttf");
+    font-display: swap;
+    font-weight: bolder;
+    font-style: normal;
+}
+
 body {
     /*background: #5F13E0;*/
     background: linear-gradient(var(--background-angle), var(--background-gradient-color-1) 0%, var(--background-gradient-color-2) 100%);
     background-attachment: fixed;
+}
+/*
+#title {
+    font-size: 56pt;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #e4b6ff;
+    -webkit-text-stroke: 3pt black;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+*/
+
+#title {
+    padding-top: 32pt;
+    text-align: center;
+    font-family: "Rubik";
+    color: white;
+    text-shadow: 8pt 8pt 16pt black;
+    font-weight: bolder;
+}
+
+#title h1 {
+    font-size: 64pt;
+}
+
+#title h2 {
+    font-size: 48pt;
+}
+
+#title-img {
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-left: 96pt;
+    margin-right: 96pt;
+
+    align-items: center;
+}
+
+#title-img img {
+    width: 192pt;
+    border-radius: 20pt;
+    border: solid;
+    border-width: 4pt;
+    border-color:#7b4caa;
+    
+    box-shadow: 8pt 8pt 32pt black;
+}
+
+#title-img img:nth-child(2) {
+    margin-top: 72pt;
 }
