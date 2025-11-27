@@ -1,0 +1,15 @@
+:root {
+    --background-color-1: #135FE0;
+    --background-color-2: #110E2B;
+    --background-color-3: #F7DDFF;
+    --background-color-4: #D3BAFF;
+    --background-gradient-color-1: var(--background-color-1);
+    --background-gradient-color-2: var(--background-color-2);
+    --background-angle: 136deg;
+}
+
+body {
+    /*background: #5F13E0;*/
+    background: linear-gradient(var(--background-angle), var(--background-gradient-color-1) 0%, var(--background-gradient-color-2) 100%);
+    background-attachment: fixed;
+}
