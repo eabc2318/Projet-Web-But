@@ -1,9 +1,13 @@
 body {
     font-family: sans-serif;
-    background-color: #271d68;
-    color: rgb(0, 0, 0);
+    background-image:url(/assets/image/presentation/12.png);
+    color: rgb(200, 0, 0);
     margin: 0;
     padding: 0;
+     background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
 }
 
 header {
@@ -16,9 +20,11 @@ header {
     margin-top: 20px;
     font-size: 80px;
     font-weight: 900;
-    color: #754b6e5d;
-    -webkit-text-stroke: 2px rgb(250, 145, 234);
-    text-shadow: 0px 4px 10px rgba(255, 134, 229, 0.5);
+    color: #5a0000;
+    -webkit-text-stroke: 2px #ff0000;
+    text-shadow: 0px 4px 15px rgba(255, 0, 0, 0.7),
+                 0px 0px 25px rgba(150, 0, 0, 0.9);
+    border-color: aliceblue;             
 }
 
 .flexbox {
@@ -41,11 +47,27 @@ header {
     height: 400px;
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow:
+        0 0 20px rgba(255, 255, 255, 0.6),
+        inset 0 0 25px rgba(120, 0, 0, 0.7);
     margin-bottom: 10px;
     position: relative;
-   
+    border: 3px solid #3a0000;
+    filter: brightness(0.8) saturate(1.2);
+}
+
+.case::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    width: 80%;
+    height: 20px;
+    background: radial-gradient(circle, rgba(150,0,0,0.8), rgba(70,0,0,0));
+    border-radius: 50%;
+    transform: rotate(2deg);
+    opacity: 0.8;
 }
 
 .bouton {
@@ -53,18 +75,21 @@ header {
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background: linear-gradient(135deg, #c875ff, #a840ff);
+    background: linear-gradient(135deg, #7a0000, #b30000);
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    box-shadow: 0 0 15px rgba(255,0,0,0.6);
+    transition: 0.2s;
 }
 
 .bouton:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255,0,0,1);
+    background: linear-gradient(135deg, #b30000, #ff0000);
 }
 
-.img1 { background-image: url("/assets/image/presentation/unnamed-removebg-preview\(3\)\(1\).png"); }
+.img1 { background-image: url("/assets/image/presentation/unnamed-removebg-preview(3)(1).png"); }
 .img2 { background-image: url("/assets/image/presentation/calm-ballerina-cappuccina-méditation-illustration-fantaisiste-représentant-un-personnage-avec-une-tasse-de-cappuccino-comme-390095822-removebg-preview(1).png"); }
 .img3 { background-image: url("/assets/image/presentation/flat_750x_075_f-pad_750x1000_f8f8f8-removebg-preview(1).png"); }
 .img4 { background-image: url("/assets/image/presentation/107470-588_2x-removebg-preview.png"); }
