@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('cristiano_ronaldo_portugal_-3832057029.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.titre{
+    margin-top: 90px;
+    font-size: 120px;
+    font-weight: 900;
+    color: #e4b6ff;
+    -webkit-text-stroke: 4px black;
+    text-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    
+}
+
+.flexbox {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 20px;
+}
+
+
+.case {
+    width: 380px;
+    height: 380px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 10% dashed white;
+    border-radius: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.text {
+    max-width: 48%;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 35px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.3);
+}
+
+.text.titre {
+    font-size: 50px;
+    font-weight: 900;
+    color: #e6caff;
+    margin-bottom: 20px;
+    text-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+}
+
+.text p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.bouton {
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #c875ff, #a840ff);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    transition: transform 0.15s ease-in-out;
+}
+
+.bouton:hover {
+    transform: scale(1.07);
+}
+.img1P1 { background-image: url("unnamed-removebg-preview(2)(1).png"); }
+.img2P1 { background-image: url("unnamed-removebg-preview(3)(1).png"); }
+.img1P2 { background-image: url("Ballerina_Cappucina-removebg-preview(1)(1).png"); }
+.img2P2 { background-image: url("calm-ballerina-cappuccina-méditation-illustration-fantaisiste-représentant-un-personnage-avec-une-tasse-de-cappuccino-comme-390095822-removebg-preview(1).png"); }
+.img1P3 { background-image: url("noFilter(1).png"); }
+.img2P3 { background-image: url("flat_750x_075_f-pad_750x1000_f8f8f8-removebg-preview(1).png"); }
