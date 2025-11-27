@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('cristiano_ronaldo_portugal_-3832057029.jpg');
+    background-image: url(/assets/image/presentation/cristiano_ronaldo_portugal_-3832057029.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -91,9 +91,11 @@ header {
 .bouton:hover {
     transform: scale(1.07);
 }
-.img1P1 { background-image: url("unnamed-removebg-preview(2)(1).png"); }
-.img2P1 { background-image: url("unnamed-removebg-preview(3)(1).png"); }
-.img1P2 { background-image: url("Ballerina_Cappucina-removebg-preview(1)(1).png"); }
-.img2P2 { background-image: url("calm-ballerina-cappuccina-méditation-illustration-fantaisiste-représentant-un-personnage-avec-une-tasse-de-cappuccino-comme-390095822-removebg-preview(1).png"); }
-.img1P3 { background-image: url("noFilter(1).png"); }
-.img2P3 { background-image: url("flat_750x_075_f-pad_750x1000_f8f8f8-removebg-preview(1).png"); }
+.img1P1 { background-image: url("/assets/image/presentation/unnamed-removebg-preview\(3\)\(1\).png"); }
+.img2P1 { background-image: url("/assets/image/presentation/unnamed-removebg-preview\(2\)\(1\).png"); }
+.img1P2 { background-image: url("/assets/image/presentation/Ballerina_Cappucina-removebg-preview\(1\)\(1\).png"); }
+.img2P2 { background-image: url("/assets/image/presentation/calm-ballerina-cappuccina-méditation-illustration-fantaisiste-représentant-un-personnage-avec-une-tasse-de-cappuccino-comme-390095822-removebg-preview\(1\).png"); }
+.img1P3 { background-image: url("/assets/image/presentation/noFilter\(1\).png"); }
+.img2P3 { background-image: url("/assets/image/presentation/flat_750x_075_f-pad_750x1000_f8f8f8-removebg-preview\(1\).png"); }
+.img1P4 { background-image: url("/assets/image/presentation/107470-588_2x-removebg-preview.png"); }
+.img2P4 { background-image: url("/assets/image/presentation/2025-06-17_278c51a6daa6d-removebg-preview.png"); }
