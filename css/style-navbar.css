@@ -8,26 +8,32 @@ body
 
 ul.navbar 
 {
-  margin: 0px;
+  margin: 0px 0px;
+  margin-right: 1em: 
   padding: 0rem;
   height: 5rem;
   list-style-type: none;
 
   overflow: hidden;
   background-color: #333333;
-  height: 5rem;
+  height: 4rem;
 }
 
 
 
 ul.navbar li {
+  width: 15em;
   margin: 0px;
+  margin-right: 1em: 
   padding: 0px;
   list-style-type: none;
-  float: left;
+  float: right;
 }
 
 ul.navbar li a {
+  margin-right: 1em;
+  width: 100%;
+  height: 4em;
   display: block;
   color: black;
   background-color: rgb(20, 133, 133);
@@ -37,6 +43,7 @@ ul.navbar li a {
 }
 
 ul.navbar li a:hover {
+  width: 100%;
   display: block;
   color: black;
   background-color: rgb(61, 133, 20);
