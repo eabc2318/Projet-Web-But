@@ -1,0 +1,46 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+ul.navbar 
+{
+  margin: 0px;
+  padding: 0rem;
+  height: 5rem;
+  list-style-type: none;
+
+  overflow: hidden;
+  background-color: #333333;
+  height: 5rem;
+}
+
+
+
+ul.navbar li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: black;
+  background-color: rgb(20, 133, 133);
+  text-align: center;
+  padding: 1rem 1rem;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover {
+  display: block;
+  color: black;
+  background-color: rgb(61, 133, 20);
+  text-align: center;
+  padding: 1rem 1rem;
+  text-decoration: none;
+}
